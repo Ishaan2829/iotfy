@@ -1,0 +1,30 @@
+CMake Error at build/CMakeFiles/git-data/grabRef.cmake:48 (file):
+  file failed to open for reading (No such file or directory):
+
+    C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/build/CMakeFiles/git-data/head-ref
+Call Stack (most recent call first):
+  C:/Users/Hp/Desktop/iota_mqtt/tools/cmake/third_party/GetGitRevisionDescription.cmake:83 (include)
+  C:/Users/Hp/Desktop/iota_mqtt/tools/cmake/third_party/GetGitRevisionDescription.cmake:93 (get_git_head_revision)
+  C:/Users/Hp/Desktop/iota_mqtt/tools/cmake/build.cmake:70 (git_describe)
+  C:/Users/Hp/Desktop/iota_mqtt/tools/cmake/build.cmake:240 (__build_get_idf_git_revision)
+  C:/Users/Hp/Desktop/iota_mqtt/tools/cmake/idf.cmake:53 (__build_init)
+  C:/Users/Hp/Desktop/iota_mqtt/tools/cmake/project.cmake:29 (include)
+  CMakeLists.txt:6 (include)
+
+
+CMake Error at build/CMakeFiles/git-data/grabRef.cmake:48 (file):
+  file failed to open for reading (No such file or directory):
+
+    C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/build/CMakeFiles/git-data/head-ref
+Call Stack (most recent call first):
+  C:/Users/Hp/Desktop/iota_mqtt/tools/cmake/third_party/GetGitRevisionDescription.cmake:83 (include)
+  C:/Users/Hp/Desktop/iota_mqtt/tools/cmake/third_party/GetGitRevisionDescription.cmake:93 (get_git_head_revision)
+  C:/Users/Hp/Desktop/iota_mqtt/tools/cmake/project.cmake:78 (git_describe)
+  C:/Users/Hp/Desktop/iota_mqtt/tools/cmake/project.cmake:600 (__project_get_revision)
+  CMakeLists.txt:7 (project)
+
+
+Compiler supported targets: xtensa-esp32-elf
+
+fatal: Needed a single revision
+fatal: not a git repository: C:/Users/Hp/Desktop/iota_mqtt/components/openthread/openthread/../../../.git/modules/components/openthread/openthread

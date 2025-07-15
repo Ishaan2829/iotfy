@@ -1,0 +1,6 @@
+idf_component_register(
+    SRCS "iotfy_mqtt.c"
+    INCLUDE_DIRS "."
+    REQUIRES  
+        iota-cradle-sdk
+)

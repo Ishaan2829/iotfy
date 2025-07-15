@@ -1,0 +1,133 @@
+-- IDF_TARGET is not set, guessed 'esp32' from sdkconfig 'C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig'
+-- Found Git: C:/Program Files/Git/cmd/git.exe (found version "2.50.0.windows.1")
+-- ccache will be used for faster recompilation
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: C:/Espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+NOTICE: Current idf-component-manager default lock file version is 2.0.0, but found 1.0.0 in C:\Users\Hp\Desktop\iota_mqtt\solutions\cradle_mqtt\dependencies.lock. Recreating lock file with the current version.
+NOTICE: Manifest files have changed, solving dependencies.
+....NOTICE: Updating lock file at C:\Users\Hp\Desktop\iota_mqtt\solutions\cradle_mqtt\dependencies.lock
+NOTICE: Processing 2 dependencies:
+NOTICE: [1/2] espressif/expat (2.7.0)
+NOTICE: [2/2] idf (5.1.6)
+-- Project sdkconfig file C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:22 CONFIG_APP_BUILD_TYPE_ELF_RAM was replaced with CONFIG_APP_BUILD_TYPE_RAM
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:246 CONFIG_BT_NIMBLE_TASK_STACK_SIZE was replaced with CONFIG_BT_NIMBLE_HOST_TASK_STACK_SIZE
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:260 CONFIG_BT_NIMBLE_ACL_BUF_COUNT was replaced with CONFIG_BT_NIMBLE_TRANSPORT_ACL_FROM_LL_COUNT
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:261 CONFIG_BT_NIMBLE_ACL_BUF_SIZE was replaced with CONFIG_BT_NIMBLE_TRANSPORT_ACL_SIZE
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:262 CONFIG_BT_NIMBLE_HCI_EVT_BUF_SIZE was replaced with CONFIG_BT_NIMBLE_TRANSPORT_EVT_SIZE
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:263 CONFIG_BT_NIMBLE_HCI_EVT_HI_BUF_COUNT was replaced with CONFIG_BT_NIMBLE_TRANSPORT_EVT_COUNT
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:264 CONFIG_BT_NIMBLE_HCI_EVT_LO_BUF_COUNT was replaced with CONFIG_BT_NIMBLE_TRANSPORT_EVT_DISCARD_COUNT
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:265 CONFIG_BT_NIMBLE_MSYS1_BLOCK_COUNT was replaced with CONFIG_BT_NIMBLE_MSYS_1_BLOCK_COUNT
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:305 CONFIG_MCPWM_ISR_IN_IRAM was replaced with CONFIG_MCPWM_ISR_IRAM_SAFE
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:384 CONFIG_ESP32_DEFAULT_CPU_FREQ_80 was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_80
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:385 CONFIG_ESP32_DEFAULT_CPU_FREQ_160 was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_160
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:386 CONFIG_ESP32_DEFAULT_CPU_FREQ_240 was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:387 CONFIG_ESP32_DEFAULT_CPU_FREQ_MHZ was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:388 CONFIG_ESP32_SPIRAM_SUPPORT was replaced with CONFIG_SPIRAM
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:391 CONFIG_ESP32_ULP_COPROC_ENABLED was replaced with CONFIG_ULP_COPROC_ENABLED
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:392 CONFIG_ESP32_ULP_COPROC_RESERVE_MEM was replaced with CONFIG_ULP_COPROC_RESERVE_MEM
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:393 CONFIG_ESP32_DEBUG_OCDAWARE was replaced with CONFIG_ESP_DEBUG_OCDAWARE
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:394 CONFIG_ESP32_BROWNOUT_DET was replaced with CONFIG_ESP_BROWNOUT_DET
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:395 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_0 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_0
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:396 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_1 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_1
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:397 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_2 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_2
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:398 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_3 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_3
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:399 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_4 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_4
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:400 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_5 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_5
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:401 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_6 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_6
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:402 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_7 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_7
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:403 CONFIG_ESP32_BROWNOUT_DET_LVL was replaced with CONFIG_ESP_BROWNOUT_DET_LVL
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:404 CONFIG_ESP32_TIME_SYSCALL_USE_RTC_FRC1 was replaced with CONFIG_NEWLIB_TIME_SYSCALL_USE_RTC_HRT
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:405 CONFIG_ESP32_TIME_SYSCALL_USE_RTC was replaced with CONFIG_NEWLIB_TIME_SYSCALL_USE_RTC
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:406 CONFIG_ESP32_TIME_SYSCALL_USE_FRC1 was replaced with CONFIG_NEWLIB_TIME_SYSCALL_USE_HRT
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:407 CONFIG_ESP32_TIME_SYSCALL_USE_NONE was replaced with CONFIG_NEWLIB_TIME_SYSCALL_USE_NONE
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:408 CONFIG_ESP32_RTC_CLK_SRC_INT_RC was replaced with CONFIG_RTC_CLK_SRC_INT_RC
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:409 CONFIG_ESP32_RTC_CLK_SRC_EXT_CRYS was replaced with CONFIG_RTC_CLK_SRC_EXT_CRYS
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:410 CONFIG_ESP32_RTC_CLK_SRC_EXT_OSC was replaced with CONFIG_RTC_CLK_SRC_EXT_OSC
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:411 CONFIG_ESP32_RTC_CLK_SRC_INT_8MD256 was replaced with CONFIG_RTC_CLK_SRC_INT_8MD256
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:412 CONFIG_ESP32_RTC_CLK_CAL_CYCLES was replaced with CONFIG_RTC_CLK_CAL_CYCLES
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:413 CONFIG_ESP32_DEEP_SLEEP_WAKEUP_DELAY was replaced with CONFIG_ESP_SLEEP_WAIT_FLASH_READY_EXTRA_DELAY
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:414 CONFIG_ESP32_XTAL_FREQ_40 was replaced with CONFIG_XTAL_FREQ_40
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:415 CONFIG_ESP32_XTAL_FREQ_26 was replaced with CONFIG_XTAL_FREQ_26
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:416 CONFIG_ESP32_XTAL_FREQ_AUTO was replaced with CONFIG_XTAL_FREQ_AUTO
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:417 CONFIG_ESP32_XTAL_FREQ was replaced with CONFIG_XTAL_FREQ
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:419 CONFIG_ESP32_COMPATIBLE_PRE_V2_1_BOOTLOADERS was replaced with CONFIG_APP_COMPATIBLE_PRE_V2_1_BOOTLOADERS
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:420 CONFIG_ESP32_COMPATIBLE_PRE_V3_1_BOOTLOADERS was replaced with CONFIG_APP_COMPATIBLE_PRE_V3_1_BOOTLOADERS
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:493 CONFIG_OTA_ALLOW_HTTP was replaced with CONFIG_ESP_HTTPS_OTA_ALLOW_HTTP
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:609 CONFIG_ESP_TASK_WDT was replaced with CONFIG_ESP_TASK_WDT_INIT
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:635 CONFIG_ESP32_WIFI_ENABLED was replaced with CONFIG_ESP_WIFI_ENABLED
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:636 CONFIG_ESP32_WIFI_SW_COEXIST_ENABLE was replaced with CONFIG_ESP_COEX_SW_COEXIST_ENABLE
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:637 CONFIG_ESP32_WIFI_STATIC_RX_BUFFER_NUM was replaced with CONFIG_ESP_WIFI_STATIC_RX_BUFFER_NUM
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:638 CONFIG_ESP32_WIFI_DYNAMIC_RX_BUFFER_NUM was replaced with CONFIG_ESP_WIFI_DYNAMIC_RX_BUFFER_NUM
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:639 CONFIG_ESP32_WIFI_STATIC_TX_BUFFER was replaced with CONFIG_ESP_WIFI_STATIC_TX_BUFFER
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:640 CONFIG_ESP32_WIFI_DYNAMIC_TX_BUFFER was replaced with CONFIG_ESP_WIFI_DYNAMIC_TX_BUFFER
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:641 CONFIG_ESP32_WIFI_TX_BUFFER_TYPE was replaced with CONFIG_ESP_WIFI_TX_BUFFER_TYPE
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:642 CONFIG_ESP32_WIFI_DYNAMIC_TX_BUFFER_NUM was replaced with CONFIG_ESP_WIFI_DYNAMIC_TX_BUFFER_NUM
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:643 CONFIG_ESP32_WIFI_CSI_ENABLED was replaced with CONFIG_ESP_WIFI_CSI_ENABLED
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:644 CONFIG_ESP32_WIFI_AMPDU_TX_ENABLED was replaced with CONFIG_ESP_WIFI_AMPDU_TX_ENABLED
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:645 CONFIG_ESP32_WIFI_TX_BA_WIN was replaced with CONFIG_ESP_WIFI_TX_BA_WIN
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:646 CONFIG_ESP32_WIFI_AMPDU_RX_ENABLED was replaced with CONFIG_ESP_WIFI_AMPDU_RX_ENABLED
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:647 CONFIG_ESP32_WIFI_RX_BA_WIN was replaced with CONFIG_ESP_WIFI_RX_BA_WIN
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:648 CONFIG_ESP32_WIFI_NVS_ENABLED was replaced with CONFIG_ESP_WIFI_NVS_ENABLED
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:649 CONFIG_ESP32_WIFI_TASK_PINNED_TO_CORE_0 was replaced with CONFIG_ESP_WIFI_TASK_PINNED_TO_CORE_0
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:650 CONFIG_ESP32_WIFI_TASK_PINNED_TO_CORE_1 was replaced with CONFIG_ESP_WIFI_TASK_PINNED_TO_CORE_1
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:651 CONFIG_ESP32_WIFI_SOFTAP_BEACON_MAX_LEN was replaced with CONFIG_ESP_WIFI_SOFTAP_BEACON_MAX_LEN
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:652 CONFIG_ESP32_WIFI_MGMT_SBUF_NUM was replaced with CONFIG_ESP_WIFI_MGMT_SBUF_NUM
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:653 CONFIG_ESP32_WIFI_IRAM_OPT was replaced with CONFIG_ESP_WIFI_IRAM_OPT
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:654 CONFIG_ESP32_WIFI_RX_IRAM_OPT was replaced with CONFIG_ESP_WIFI_RX_IRAM_OPT
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:655 CONFIG_ESP32_WIFI_ENABLE_WPA3_SAE was replaced with CONFIG_ESP_WIFI_ENABLE_WPA3_SAE
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:787 CONFIG_HAL_ASSERTION_SILIENT was replaced with CONFIG_HAL_ASSERTION_SILENT
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:1323 CONFIG_WPA_MBEDTLS_CRYPTO was replaced with CONFIG_ESP_WIFI_MBEDTLS_CRYPTO
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:1324 CONFIG_WPA_WAPI_PSK was replaced with CONFIG_ESP_WIFI_WAPI_PSK
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:1325 CONFIG_WPA_SUITE_B_192 was replaced with CONFIG_ESP_WIFI_SUITE_B_192
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:1326 CONFIG_WPA_DEBUG_PRINT was replaced with CONFIG_ESP_WIFI_DEBUG_PRINT
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:1327 CONFIG_WPA_TESTING_OPTIONS was replaced with CONFIG_ESP_WIFI_TESTING_OPTIONS
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:1328 CONFIG_WPA_WPS_STRICT was replaced with CONFIG_ESP_WIFI_WPS_STRICT
+C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig:1329 CONFIG_WPA_11KV_SUPPORT was replaced with CONFIG_ESP_WIFI_11KV_SUPPORT
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: C:/Espressif/python_env/idf5.1_py3.10_env/Scripts/python.exe (found version "3.10.11") found components: Interpreter
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - no
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - not found
+-- Could NOT find Threads (missing: Threads_FOUND) 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "cradle_mqtt" version: 0001
+-- Adding linker script C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script C:/Users/Hp/Desktop/iota_mqtt/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script C:/Users/Hp/Desktop/iota_mqtt/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script C:/Users/Hp/Desktop/iota_mqtt/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script C:/Users/Hp/Desktop/iota_mqtt/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script C:/Users/Hp/Desktop/iota_mqtt/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script C:/Users/Hp/Desktop/iota_mqtt/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script C:/Users/Hp/Desktop/iota_mqtt/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script C:/Users/Hp/Desktop/iota_mqtt/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump espressif__expat esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 iota-cradle-sdk json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: C:/Users/Hp/Desktop/iota_mqtt/components/app_trace C:/Users/Hp/Desktop/iota_mqtt/components/app_update C:/Users/Hp/Desktop/iota_mqtt/components/bootloader C:/Users/Hp/Desktop/iota_mqtt/components/bootloader_support C:/Users/Hp/Desktop/iota_mqtt/components/bt C:/Users/Hp/Desktop/iota_mqtt/components/cmock C:/Users/Hp/Desktop/iota_mqtt/components/console C:/Users/Hp/Desktop/iota_mqtt/components/cxx C:/Users/Hp/Desktop/iota_mqtt/components/driver C:/Users/Hp/Desktop/iota_mqtt/components/efuse C:/Users/Hp/Desktop/iota_mqtt/components/esp-tls C:/Users/Hp/Desktop/iota_mqtt/components/esp_adc C:/Users/Hp/Desktop/iota_mqtt/components/esp_app_format C:/Users/Hp/Desktop/iota_mqtt/components/esp_coex C:/Users/Hp/Desktop/iota_mqtt/components/esp_common C:/Users/Hp/Desktop/iota_mqtt/components/esp_eth C:/Users/Hp/Desktop/iota_mqtt/components/esp_event C:/Users/Hp/Desktop/iota_mqtt/components/esp_gdbstub C:/Users/Hp/Desktop/iota_mqtt/components/esp_hid C:/Users/Hp/Desktop/iota_mqtt/components/esp_http_client C:/Users/Hp/Desktop/iota_mqtt/components/esp_http_server C:/Users/Hp/Desktop/iota_mqtt/components/esp_https_ota C:/Users/Hp/Desktop/iota_mqtt/components/esp_https_server C:/Users/Hp/Desktop/iota_mqtt/components/esp_hw_support C:/Users/Hp/Desktop/iota_mqtt/components/esp_lcd C:/Users/Hp/Desktop/iota_mqtt/components/esp_local_ctrl C:/Users/Hp/Desktop/iota_mqtt/components/esp_mm C:/Users/Hp/Desktop/iota_mqtt/components/esp_netif C:/Users/Hp/Desktop/iota_mqtt/components/esp_netif_stack C:/Users/Hp/Desktop/iota_mqtt/components/esp_partition C:/Users/Hp/Desktop/iota_mqtt/components/esp_phy C:/Users/Hp/Desktop/iota_mqtt/components/esp_pm C:/Users/Hp/Desktop/iota_mqtt/components/esp_psram C:/Users/Hp/Desktop/iota_mqtt/components/esp_ringbuf C:/Users/Hp/Desktop/iota_mqtt/components/esp_rom C:/Users/Hp/Desktop/iota_mqtt/components/esp_system C:/Users/Hp/Desktop/iota_mqtt/components/esp_timer C:/Users/Hp/Desktop/iota_mqtt/components/esp_wifi C:/Users/Hp/Desktop/iota_mqtt/components/espcoredump C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/managed_components/espressif__expat C:/Users/Hp/Desktop/iota_mqtt/components/esptool_py C:/Users/Hp/Desktop/iota_mqtt/components/fatfs C:/Users/Hp/Desktop/iota_mqtt/components/freertos C:/Users/Hp/Desktop/iota_mqtt/components/hal C:/Users/Hp/Desktop/iota_mqtt/components/heap C:/Users/Hp/Desktop/iota_mqtt/components/http_parser C:/Users/Hp/Desktop/iota_mqtt/components/idf_test C:/Users/Hp/Desktop/iota_mqtt/components/ieee802154 C:/Users/Hp/Desktop/iota_mqtt/components/iota-cradle-sdk C:/Users/Hp/Desktop/iota_mqtt/components/json C:/Users/Hp/Desktop/iota_mqtt/components/log C:/Users/Hp/Desktop/iota_mqtt/components/lwip C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/main C:/Users/Hp/Desktop/iota_mqtt/components/mbedtls C:/Users/Hp/Desktop/iota_mqtt/components/mqtt C:/Users/Hp/Desktop/iota_mqtt/components/newlib C:/Users/Hp/Desktop/iota_mqtt/components/nvs_flash C:/Users/Hp/Desktop/iota_mqtt/components/openthread C:/Users/Hp/Desktop/iota_mqtt/components/partition_table C:/Users/Hp/Desktop/iota_mqtt/components/perfmon C:/Users/Hp/Desktop/iota_mqtt/components/protobuf-c C:/Users/Hp/Desktop/iota_mqtt/components/protocomm C:/Users/Hp/Desktop/iota_mqtt/components/pthread C:/Users/Hp/Desktop/iota_mqtt/components/sdmmc C:/Users/Hp/Desktop/iota_mqtt/components/soc C:/Users/Hp/Desktop/iota_mqtt/components/spi_flash C:/Users/Hp/Desktop/iota_mqtt/components/spiffs C:/Users/Hp/Desktop/iota_mqtt/components/tcp_transport C:/Users/Hp/Desktop/iota_mqtt/components/ulp C:/Users/Hp/Desktop/iota_mqtt/components/unity C:/Users/Hp/Desktop/iota_mqtt/components/usb C:/Users/Hp/Desktop/iota_mqtt/components/vfs C:/Users/Hp/Desktop/iota_mqtt/components/wear_levelling C:/Users/Hp/Desktop/iota_mqtt/components/wifi_provisioning C:/Users/Hp/Desktop/iota_mqtt/components/wpa_supplicant C:/Users/Hp/Desktop/iota_mqtt/components/xtensa
+-- Configuring incomplete, errors occurred!

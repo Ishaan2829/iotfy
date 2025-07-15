@@ -1,0 +1,56 @@
+-- IDF_TARGET is not set, guessed 'esp32' from sdkconfig 'C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig'
+-- Found Git: C:/Program Files/Git/cmd/git.exe (found version "2.50.0.windows.1")
+-- ccache will be used for faster recompilation
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: C:/Espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+NOTICE: Processing 2 dependencies:
+NOTICE: [1/2] espressif/expat (2.7.0)
+NOTICE: [2/2] idf (5.1.6)
+-- Project sdkconfig file C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/sdkconfig
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: C:/Espressif/python_env/idf5.1_py3.10_env/Scripts/python.exe (found version "3.10.11") found components: Interpreter
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - no
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - not found
+-- Could NOT find Threads (missing: Threads_FOUND) 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "cradle_mqtt" version: 0001
+-- Adding linker script C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script C:/Users/Hp/Desktop/iota_mqtt/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script C:/Users/Hp/Desktop/iota_mqtt/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script C:/Users/Hp/Desktop/iota_mqtt/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script C:/Users/Hp/Desktop/iota_mqtt/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script C:/Users/Hp/Desktop/iota_mqtt/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script C:/Users/Hp/Desktop/iota_mqtt/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script C:/Users/Hp/Desktop/iota_mqtt/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script C:/Users/Hp/Desktop/iota_mqtt/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump espressif__expat esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 iota-cradle-sdk json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: C:/Users/Hp/Desktop/iota_mqtt/components/app_trace C:/Users/Hp/Desktop/iota_mqtt/components/app_update C:/Users/Hp/Desktop/iota_mqtt/components/bootloader C:/Users/Hp/Desktop/iota_mqtt/components/bootloader_support C:/Users/Hp/Desktop/iota_mqtt/components/bt C:/Users/Hp/Desktop/iota_mqtt/components/cmock C:/Users/Hp/Desktop/iota_mqtt/components/console C:/Users/Hp/Desktop/iota_mqtt/components/cxx C:/Users/Hp/Desktop/iota_mqtt/components/driver C:/Users/Hp/Desktop/iota_mqtt/components/efuse C:/Users/Hp/Desktop/iota_mqtt/components/esp-tls C:/Users/Hp/Desktop/iota_mqtt/components/esp_adc C:/Users/Hp/Desktop/iota_mqtt/components/esp_app_format C:/Users/Hp/Desktop/iota_mqtt/components/esp_coex C:/Users/Hp/Desktop/iota_mqtt/components/esp_common C:/Users/Hp/Desktop/iota_mqtt/components/esp_eth C:/Users/Hp/Desktop/iota_mqtt/components/esp_event C:/Users/Hp/Desktop/iota_mqtt/components/esp_gdbstub C:/Users/Hp/Desktop/iota_mqtt/components/esp_hid C:/Users/Hp/Desktop/iota_mqtt/components/esp_http_client C:/Users/Hp/Desktop/iota_mqtt/components/esp_http_server C:/Users/Hp/Desktop/iota_mqtt/components/esp_https_ota C:/Users/Hp/Desktop/iota_mqtt/components/esp_https_server C:/Users/Hp/Desktop/iota_mqtt/components/esp_hw_support C:/Users/Hp/Desktop/iota_mqtt/components/esp_lcd C:/Users/Hp/Desktop/iota_mqtt/components/esp_local_ctrl C:/Users/Hp/Desktop/iota_mqtt/components/esp_mm C:/Users/Hp/Desktop/iota_mqtt/components/esp_netif C:/Users/Hp/Desktop/iota_mqtt/components/esp_netif_stack C:/Users/Hp/Desktop/iota_mqtt/components/esp_partition C:/Users/Hp/Desktop/iota_mqtt/components/esp_phy C:/Users/Hp/Desktop/iota_mqtt/components/esp_pm C:/Users/Hp/Desktop/iota_mqtt/components/esp_psram C:/Users/Hp/Desktop/iota_mqtt/components/esp_ringbuf C:/Users/Hp/Desktop/iota_mqtt/components/esp_rom C:/Users/Hp/Desktop/iota_mqtt/components/esp_system C:/Users/Hp/Desktop/iota_mqtt/components/esp_timer C:/Users/Hp/Desktop/iota_mqtt/components/esp_wifi C:/Users/Hp/Desktop/iota_mqtt/components/espcoredump C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/managed_components/espressif__expat C:/Users/Hp/Desktop/iota_mqtt/components/esptool_py C:/Users/Hp/Desktop/iota_mqtt/components/fatfs C:/Users/Hp/Desktop/iota_mqtt/components/freertos C:/Users/Hp/Desktop/iota_mqtt/components/hal C:/Users/Hp/Desktop/iota_mqtt/components/heap C:/Users/Hp/Desktop/iota_mqtt/components/http_parser C:/Users/Hp/Desktop/iota_mqtt/components/idf_test C:/Users/Hp/Desktop/iota_mqtt/components/ieee802154 C:/Users/Hp/Desktop/iota_mqtt/components/iota-cradle-sdk C:/Users/Hp/Desktop/iota_mqtt/components/json C:/Users/Hp/Desktop/iota_mqtt/components/log C:/Users/Hp/Desktop/iota_mqtt/components/lwip C:/Users/Hp/Desktop/iota_mqtt/solutions/cradle_mqtt/main C:/Users/Hp/Desktop/iota_mqtt/components/mbedtls C:/Users/Hp/Desktop/iota_mqtt/components/mqtt C:/Users/Hp/Desktop/iota_mqtt/components/newlib C:/Users/Hp/Desktop/iota_mqtt/components/nvs_flash C:/Users/Hp/Desktop/iota_mqtt/components/openthread C:/Users/Hp/Desktop/iota_mqtt/components/partition_table C:/Users/Hp/Desktop/iota_mqtt/components/perfmon C:/Users/Hp/Desktop/iota_mqtt/components/protobuf-c C:/Users/Hp/Desktop/iota_mqtt/components/protocomm C:/Users/Hp/Desktop/iota_mqtt/components/pthread C:/Users/Hp/Desktop/iota_mqtt/components/sdmmc C:/Users/Hp/Desktop/iota_mqtt/components/soc C:/Users/Hp/Desktop/iota_mqtt/components/spi_flash C:/Users/Hp/Desktop/iota_mqtt/components/spiffs C:/Users/Hp/Desktop/iota_mqtt/components/tcp_transport C:/Users/Hp/Desktop/iota_mqtt/components/ulp C:/Users/Hp/Desktop/iota_mqtt/components/unity C:/Users/Hp/Desktop/iota_mqtt/components/usb C:/Users/Hp/Desktop/iota_mqtt/components/vfs C:/Users/Hp/Desktop/iota_mqtt/components/wear_levelling C:/Users/Hp/Desktop/iota_mqtt/components/wifi_provisioning C:/Users/Hp/Desktop/iota_mqtt/components/wpa_supplicant C:/Users/Hp/Desktop/iota_mqtt/components/xtensa
+-- Configuring incomplete, errors occurred!

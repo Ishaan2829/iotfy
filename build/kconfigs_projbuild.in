@@ -1,0 +1,5 @@
+source "C:/Users/Hp/Desktop/iota_mqtt/components/bootloader/Kconfig.projbuild"
+source "C:/Users/Hp/Desktop/iota_mqtt/components/esp_app_format/Kconfig.projbuild"
+source "C:/Users/Hp/Desktop/iota_mqtt/components/esp_rom/Kconfig.projbuild"
+source "C:/Users/Hp/Desktop/iota_mqtt/components/esptool_py/Kconfig.projbuild"
+source "C:/Users/Hp/Desktop/iota_mqtt/components/partition_table/Kconfig.projbuild"
